@@ -27,6 +27,7 @@ Directory composition is a bit chaotic, but it'll do.
 - IOChip: The section is dedicated to the YM6046.
 - MDRevisions: Mega Drive Revisions
 - SMS-VDP: Master System VDP
+- T84C: Research of Toshiba's Z80 MPU CMOS version (T84C00AM-5 & similar)
 - VDP: Boss
 - VRAM: Dual port VRAM
 - YM_Cells: Yamaha standard cell library

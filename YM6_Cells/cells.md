@@ -81,8 +81,8 @@ Regular posedge Master-Slave DFF with active-low set input. Nothing unusual.
 |---|---|---|---|
 
 ## Ячейка 14 - cnt_bit
-|![image](https://github.com/emu-russia/SEGAChips/assets/15833655/89c07e6d-9d4a-4bfb-9281-407dfd855008)|![image](https://github.com/emu-russia/SEGAChips/assets/15833655/ffdbfc47-3bc1-4d3a-acb5-82b223288637)|![image](https://user-images.githubusercontent.com/15833655/184320364-d5e2a32b-8389-4529-82ad-d396d4569f61.png)|![image](https://user-images.githubusercontent.com/15833655/184320442-476a2a36-638b-4881-ba6a-aac0cbab9a8e.png)|
-|---|---|---|---|
+|![image](https://github.com/emu-russia/SEGAChips/assets/15833655/89c07e6d-9d4a-4bfb-9281-407dfd855008)|![image](https://github.com/emu-russia/SEGAChips/assets/15833655/ffdbfc47-3bc1-4d3a-acb5-82b223288637)|![image](https://user-images.githubusercontent.com/15833655/184320364-d5e2a32b-8389-4529-82ad-d396d4569f61.png)|![image](https://user-images.githubusercontent.com/15833655/184320442-476a2a36-638b-4881-ba6a-aac0cbab9a8e.png)|![14PORT](https://github.com/emu-russia/SEGAChips/assets/93550076/fb26fe55-bcf0-4ad5-93fe-a46f6b915363)|
+|---|---|---|---|---|
 
 Разряд синхронного счётчика.
 
@@ -157,8 +157,8 @@ The delay is made of 8 inverters. The first 7 have wider gates (they have higher
 
 ## Ячейка 22 - 4-bit mux
 
-|![image](https://github.com/emu-russia/SEGAChips/assets/15833655/2fe9e77a-de3f-4dc4-9e75-588c59df5b22)|![image](https://github.com/emu-russia/SEGAChips/assets/15833655/8df190b1-fccb-4807-a4f3-a78d8e643f3b)|
-|---|---|
+|![image](https://github.com/emu-russia/SEGAChips/assets/15833655/2fe9e77a-de3f-4dc4-9e75-588c59df5b22)|![image](https://github.com/emu-russia/SEGAChips/assets/15833655/8df190b1-fccb-4807-a4f3-a78d8e643f3b)|![22PORT](https://github.com/emu-russia/SEGAChips/assets/93550076/a1349099-c471-4aab-9eab-45871d91c67d)|
+|---|---|---|
 
 ## Ячейка 23 - dffpos
 
@@ -249,39 +249,58 @@ DFF по нарастающему фронту (posedge).
 
 ![image](https://github.com/emu-russia/SEGAChips/assets/15833655/1573f26b-8511-4ba3-8648-868544c98620)
 
-## Ячейка 40
+## Ячейка 40 - nand8
 
 ![image](https://github.com/emu-russia/SEGAChips/assets/15833655/c13446a3-c824-49e9-b57e-e56d878ba145)
 
-## Ячейка 41
+## Ячейка 41 - 8 to 1 MUX
 
 ![image](https://github.com/emu-russia/SEGAChips/assets/15833655/f64c11c2-270b-420e-b906-134cf673ca09)
+![41poly](https://github.com/emu-russia/SEGAChips/assets/93550076/7bc5e0ef-6494-4af6-a6f1-2aab7c960fd8)
+![41_log](https://github.com/emu-russia/SEGAChips/assets/93550076/2d87f6c4-5158-4c44-9e9f-2cecd1600a16)
 
-## Ячейка 42
+## Ячейка 42  - 4bit SIPO Shift Register (sr4) + Async Reset
 
 ![image](https://github.com/emu-russia/SEGAChips/assets/15833655/20d93229-b19b-4731-9dae-e5af0703a03b)
+![42poly](https://github.com/emu-russia/SEGAChips/assets/93550076/66e391d2-555d-46ea-a966-3b5c28af5d4b)
 
-## Ячейка 43
+## Ячейка 43 - AON22
 
 ![image](https://github.com/emu-russia/SEGAChips/assets/15833655/64379939-98b6-41c4-984d-a76045ef3ded)
+![43POLY](https://github.com/emu-russia/SEGAChips/assets/93550076/7d8544b1-3f60-4ee3-adea-9a3614a499d4)
 
-## Ячейка 44
+## Ячейка 44 - NOR6
 
 ![image](https://github.com/emu-russia/SEGAChips/assets/15833655/fbc399c4-d0e1-417e-8d69-669491e92d6d)
+![44POLY](https://github.com/emu-russia/SEGAChips/assets/93550076/ab1b4ea2-65ae-46a0-86d1-f32a72e2c874)
 
-## Ячейка 45
+## Ячейка 45 - SLATCH
 
 ![image](https://github.com/emu-russia/SEGAChips/assets/15833655/922cd60a-2553-45cb-8708-aca049dca51b)
+![45poly](https://github.com/emu-russia/SEGAChips/assets/93550076/a022d8eb-9594-4c69-aedb-8aa0ae755723)
+![45_pin](https://github.com/emu-russia/SEGAChips/assets/93550076/8293fc74-52bc-46e4-b3fc-58abd83ffa88)
 
-## Ячейка 46
+## Ячейка 46 - 2-bit mux 4 to 1
+
+Сдвоенный мультиплексор 4 в 1
 
 ![image](https://github.com/emu-russia/SEGAChips/assets/15833655/c51d4bf5-b0c0-4c60-bb1c-e3c3026a218c)
+![46poly](https://github.com/emu-russia/SEGAChips/assets/93550076/650e4b37-8cae-4ffd-9896-bb885c26bbd6)
+![46LOG](https://github.com/emu-russia/SEGAChips/assets/93550076/406f4a22-f6ff-4290-a6d7-670a2a060187)
 
-## Ячейка 47
+
+## Ячейка 47 - JKFF, active low async Set Res, negedge (`jkffsrneg`)
+JK-триггер с асинхронным сбросом и предустановкой, чувствительность по заднему фронту
 
 ![image](https://github.com/emu-russia/SEGAChips/assets/15833655/99a41152-1bc6-4a8f-a95a-2743ad454a5e)
+![47poly](https://github.com/emu-russia/SEGAChips/assets/93550076/069d10c5-06fc-499f-9071-11792336fb81)
+![47log](https://github.com/emu-russia/SEGAChips/assets/93550076/7690bfce-9b00-4fe1-8485-2a2f39fbdc6b)
 
-## Ячейка 48
+## Ячейка 48 - DFF, active low async Set Res, posedge (`dffsrpos`)
 
-![image](https://github.com/emu-russia/SEGAChips/assets/15833655/236e370c-1234-429c-869b-3e693551f0a8)
+D-триггер с асинхронным сбросом и предустановкой, чувствительность по переднему фронту
+
+![49](https://github.com/emu-russia/SEGAChips/assets/93550076/ceba587c-93e7-4624-ab0b-ff0d388324de)
+![49log](https://github.com/emu-russia/SEGAChips/assets/93550076/496b71bc-b65d-4699-98ef-eb65c0c897c6)
+
 
